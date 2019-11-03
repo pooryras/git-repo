@@ -1,0 +1,36 @@
+########### Git Intro ##########
+you can install git by this command:
+# apt install git
+
+there are 3 setting in git: 1- system 2- user 3- project
+
+- system:
+# git config --system
+
+- User:
+# git config --global
+
+- Project:
+# git config
+
+-- User Config:
+# git config --global user.name "<username>"
+this command set username
+
+# git config --global user.email "<email>"
+this command set user email
+
+these two is important.
+
+# git config --list
+print user git config
+
+# git config user.name
+print username
+
+# git config --global core.editor "vim"
+this command force git to use vim editor
+
+# git help <command>
+perint that command manual
+
